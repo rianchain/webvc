@@ -127,7 +127,10 @@ nav li:hover {
 
     nav li {
         margin: 10px 20px;
-        font-size: xx-large;
+        font-size: large;
+        background-color: rgba(117, 117, 117, 0.103);
+        padding: 20px;
+        border-radius: 50px;
     }
 
     .main-title {
@@ -146,7 +149,7 @@ nav li:hover {
 @media only screen and (max-width: 480px) {
     
     nav li {
-        margin: 10px 20px;
+        margin: 10px 10px;
         font-size: large;
         background-color: rgba(117, 117, 117, 0.103);
         padding: 20px;
