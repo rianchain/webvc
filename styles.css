@@ -1,0 +1,160 @@
+*, html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000f8;
+}
+
+.navbar {
+    background-color: rgb(29, 42, 51);
+    position: fixed;
+    display: flex;
+    z-index: 1000;
+    width: 100%;
+}
+
+nav li {
+    padding: 0px;
+    color: white;
+    margin-left: 100px;
+    font-size: large;
+}
+
+nav li:hover {
+    color: yellow;
+}
+
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+
+.main-title {
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 20px;
+}
+
+.wrapper-title {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.menu {
+    color: white;
+}
+
+.isi {
+    padding: 0px 40px;
+    margin-top: 0px;
+}
+
+.font-col {
+    color: white;
+}
+
+.text-align {
+    text-align: justify;
+}
+
+.about {
+    padding-top: 60px;
+    margin-top: 20px;
+}
+
+#about {
+    padding: 0px 50px;
+}
+
+.paragraph1 {
+    padding: 20px 60px;
+    text-align: justify;
+    color: white;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: rgb(29, 42, 51);
+}
+
+.drawer-side {
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 10px 20px;
+        font-size: medium;
+    }
+
+    .main-title {
+        font-size: 40px;
+    }
+
+    .wrapper {
+        margin-top: 150px;
+    }
+
+    .paragraph1 {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav li {
+        margin: 5px 20px;
+        font-size: small;
+    }
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    .wrapper {
+        margin-top: 100px;
+    }
+}
+
