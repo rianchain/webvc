@@ -113,6 +113,11 @@ nav li:hover {
     margin-top: 60px;
 }
 
+.hero {
+    background-image: url(gedung.jpg);
+    height: 100vh;
+}
+
 
 
 
