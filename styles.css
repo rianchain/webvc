@@ -114,7 +114,7 @@ nav li:hover {
 }
 
 .hero {
-    background-image: url(gedung.jpg);
+    background-image: url(gedung.jpg) !important;
     height: 100vh;
 }
 
